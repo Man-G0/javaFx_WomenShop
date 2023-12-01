@@ -7,6 +7,8 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
+
+
         // write your code here
         try {
             Product p1 = new Shoes("s1", 10, 10,38);
@@ -20,7 +22,7 @@ public class Main {
             }
 
             p1.sell(9);
-            p2.purchase(10);
+            p2.purchase(10,18);
 
             System.out.println(Product.getIncome());
 
@@ -44,5 +46,6 @@ public class Main {
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
+        double capital = 5000.00;
     }
 }

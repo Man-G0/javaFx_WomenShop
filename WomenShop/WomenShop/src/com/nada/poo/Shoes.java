@@ -27,6 +27,5 @@ public class Shoes extends Product {
   @Override
   public void applyDiscount() {
     this.setPrice(this.getPrice()*(1-DISCOUNT_SHOES));
-
   }
 }
