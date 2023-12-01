@@ -2,25 +2,25 @@ package com.nada.poo;
 
 public class Shoes extends Product {
 
-  private int shoeSize;
+  private int shoesSize;
 
-  public Shoes(String name, double price, int nbItems, int shoeSize) {
+  public Shoes(String name, double price, int nbItems, int shoesSize) {
     super(name, price, nbItems);
-    this.shoeSize = shoeSize;
+    this.shoesSize = shoesSize;
   }
 
   public int getShoeSize() {
-    return shoeSize;
+    return shoesSize;
   }
 
-  public void setShoeSize(int shoeSize) {
-    this.shoeSize = shoeSize;
+  public void setShoeSize(int shoesSize) {
+    this.shoesSize = shoesSize;
   }
 
   @Override
   public String toString() {
     return "Shoes{" + super.toString()+
-            " shoeSize=" + shoeSize +
+            " shoesSize=" + shoesSize +
             '}';
   }
 
